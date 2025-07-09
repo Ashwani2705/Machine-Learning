@@ -1,0 +1,27 @@
+5. Create a Virtual Environment (Optional but Recommended):
+To avoid package conflicts in the future, I recommend setting up a virtual environment for your project.
+
+Here’s how to create a virtual environment:
+
+Create the virtual environment:
+
+bash
+Copy code
+python -m venv myenv
+Activate the virtual environment:
+
+On Windows:
+bash
+Copy code
+myenv\Scripts\activate
+On macOS/Linux:
+bash
+Copy code
+source myenv/bin/activate
+Install the necessary packages: Once the virtual environment is activated, install the required libraries:
+
+bash
+Copy code
+pip install numpy pandas matplotlib
+Run your code in the virtual environment: After setting up the virtual environment, run your Python script, and the errors should be resolved.
+
