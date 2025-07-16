@@ -1,2 +1,4 @@
 Hello world
-This is a new line append operarion taking place lets see 
+This is a new line append operarion taking place lets see first line 
+second line 
+third line 

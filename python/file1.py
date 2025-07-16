@@ -20,3 +20,10 @@ with open('python\check.txt','r') as file:
 #Writing a file without overwriting 
 with open('python\check.txt','a') as file:    #opening file in append mode 
     file.write("append operarion taking place lets see ")
+
+
+
+#Scenario writting a list of lines in a file 
+lines=["first line \n","second line \n","third line "]
+with open('python\check.txt','a') as file:
+    file.writelines(lines)
