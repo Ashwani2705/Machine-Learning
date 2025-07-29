@@ -9,3 +9,5 @@ with open('python\\example.bin', 'wb') as file:  # 'wb' for write binary
 with open('python\\example.bin', 'rb') as file:
     content = file.read()  # 'rb' for read binary
     print(content)
+
+#count the number of texts in the lines and word and character in teh files 
